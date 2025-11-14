@@ -1,0 +1,31 @@
+@import "tailwindcss";
+section{
+background-image: url('./image/Praying.jfif');
+background-size:cover;
+background-position: center;
+min-height: 100vh;
+position: relative;
+
+};
+.box{
+    @apply w-3xl bg-blue-50/60 absolute top-1/2 left-1/2 -translate-1/2 p-3 rounded-xl text-xl text-gray-900
+}
+header{
+    @apply border-b-2 border-gray-50 p-4 flex justify-between
+}
+.city{
+    @apply flex items-center gap-3 flex-row-reverse
+}
+select{
+@apply border-2 border-gray-100 rounded-xl p-1 outline-none
+}
+.date{
+    @apply flex flex-row-reverse gap-3 items-center
+}
+.timePraying{
+    @apply mt-3
+}
+ul li{
+    @apply flex flex-row-reverse justify-between p-2 bg-gray-100/70 mt-2
+    hover:bg-gray-100/90 cursor-pointer
+}
