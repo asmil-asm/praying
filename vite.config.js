@@ -15,5 +15,10 @@ export default defineConfig({
     }),
     tailwindcss()
   ],
-  base: '/https://github.com/asmil-asm/praying.git/'
+   build: {
+    outDir: 'dist',
+    sourcemap: false
+  },
+   base: '/https://github.com/asmil-asm/praying.git/'
 })
+
