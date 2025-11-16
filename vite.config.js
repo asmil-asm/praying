@@ -19,6 +19,6 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false
   },
-   base: '/https://github.com/asmil-asm/praying.git/'
+   base: '/praying/'
 })
 
